@@ -38,11 +38,7 @@ Demostra com invocar el mètode estàtic i el no estàtic des del main() de la c
 
 - Clonar el Repositorio:
 
-git clone DIRECCION DEL REPO
-
-- Navegar al Directorio del Proyecto:
-
-Ejemplo: cd nom-del-repositorio
+git clone https://github.com/Rafadicandia/1.1-Herencia-y-Polimorfismo-Nivel1.git
 
 - Configuración del IDE (Opcional pero útil):
 
