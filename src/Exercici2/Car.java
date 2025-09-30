@@ -1,5 +1,5 @@
 package Exercici2;
-/**La marca ha de ser estàtic final, el model estàtic i la potència final**/
+
 
 public class Car {
     private static final String  brand = "Nissan";
