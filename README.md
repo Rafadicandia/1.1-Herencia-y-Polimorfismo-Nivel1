@@ -21,21 +21,40 @@ Demostra com invocar el mètode estàtic i el no estàtic des del main() de la c
 
 ## 💻Tecnologies Utilitzades
 
-Java
+**Java**: 24 (OpenJDK)
 
 ## 📋Requisits
 
-Especificacions dels requisits necessaris per a poder executar el projecte, com ara versions de programari, dependències, etc.
+- Sistema Operativo: Windows/macOS/Linux.
+
+- **Java Development Kit (JDK):** Versió 24.0.1 (o superior). Es recomana utilitzar una distribució d'**OpenJDK**.
+
+- Ejemplo: JDK 21 o superior.
+
+- Entorno de Desarrollo Integrado (IDE): IntelliJ IDEA.
 
 
 ## 🛠️Instal·lació
 
-Passos necessaris per a la instal·lació del projecte en un entorn local.
+- Clonar el Repositorio:
+
+git clone DIRECCION DEL REPO
+
+- Navegar al Directorio del Proyecto:
+
+Ejemplo: cd nom-del-repositorio
+
+- Configuración del IDE (Opcional pero útil):
+
+Abrir el fichero como un proyecto de Java.
 
 
 ## ▶️Execució
 
-Instruccions per a l'execució del projecte un cop instal·lat.
+- Ejecutar desde el IDE
+    - Abrir el archivo principal (el que contiene el método main).
+
+    - Hacer clic derecho y seleccionar "Run 'Main'".
 
 
 ## 🌐Desplegament
@@ -45,4 +64,4 @@ Instruccions per al desplegament del projecte en un entorn de producció o servi
 
 ## 🤝Contribucions
 
-Normes i guies per a contribuir al projecte, si escau.
+### Las contribuciones son bienvenidas. Por favor, reporta cualquier error abriendo un issue o sugiere mejoras mediante un Pull Request claro y conciso.
