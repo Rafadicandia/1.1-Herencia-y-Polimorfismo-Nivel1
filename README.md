@@ -1,63 +1,65 @@
+
 <br>
 
-## 📄Descripció - Enunciat de l'exercici
+## 📄Description - Exercise Statement
 
-### Exercici 1
-En un grup de música hi ha diferents tipus d’instruments musicals. Hi ha instruments de vent, de corda i de percussió.
+### Exercise 1
 
-Tots els instruments tenen com a atributs el seu nom, i el seu preu. A més, tenen un mètode anomenat tocar(). Aquest, és abstracte a la classe instrument i, per tant, s’ha d’implementar a les classes filles. Si s’està tocant un instrument de vent, el mètode ha de mostrar per consola: "Està sonant un instrument de vent", si s’està tocant un instrument de corda: “Està sonant un instrument de corda” i si s’està tocant un instrument de percussió: “Està sonant un instrument de percussió”.
+In a music group, there are different types of musical instruments. There are wind, string, and percussion instruments.
 
+All instruments have `name` and `price` as attributes. Additionally, they have a method called `tocar()` (play). This method is abstract in the `Instrument` class and, therefore, must be implemented in the child classes. If a wind instrument is being played, the method should display on the console: "A wind instrument is playing", if a string instrument is being played: “A string instrument is playing” and if a percussion instrument is being played: “A percussion instrument is playing”.
 
-El procés de càrrega d'una classe només té lloc una vegada. Demostra que la càrrega pot ser provocada per la creació de la primera instància d'aquesta classe o per l'accés a un membre estàtic d'aquesta.
+The process of loading a class only happens once. Demonstrate that loading can be triggered by creating the first instance of that class or by accessing a static member of it.
 
-Cerca informació sobre els blocs d'inicialització i blocs estàtics en Java.
+Research information about initialization blocks and static blocks in Java.
 
-### Exercici 2
-Crea una classe "Cotxe" amb els atributs: marca, model i potència. La marca ha de ser estàtic final, el model estàtic i la potència final. Demostra la diferència entre els tres. N’hi ha algun que es pugui inicialitzar al constructor de la classe?
+### Exercise 2
 
-Afegeix dos mètodes a la classe "Cotxe". Un mètode estàtic anomenat frenar() i un altre no estàtic anomenat accelerar(). El mètode accelerar ha de mostrar per consola: “El vehicle està accelerant” i el mètode frenar() ha de mostrar: “El vehicle està frenant”.
+Create a "Cotxe" (Car) class with the attributes: `marca` (brand), `model` (model), and `potencia` (power). The `marca` must be `static final`, the `model` `static`, and the `potencia` `final`. Demonstrate the difference between the three. Can any of them be initialized in the class constructor?
 
-Demostra com invocar el mètode estàtic i el no estàtic des del main() de la classe principal.
+Add two methods to the "Cotxe" class. A static method called `frenar()` (brake) and another non-static method called `accelerar()` (accelerate). The `accelerar` method should display on the console: “The vehicle is accelerating” and the `frenar()` method should display: “The vehicle is braking”.
 
-## 💻Tecnologies Utilitzades
+Demonstrate how to invoke the static and non-static methods from the `main()` method of the main class.
+
+## 💻Technologies Used
 
 **Java**: 24 (OpenJDK)
 
-## 📋Requisits
+## 📋Requirements
 
-- Sistema Operativo: Windows/macOS/Linux.
+- Operating System: Windows/macOS/Linux.
 
-- **Java Development Kit (JDK):** Versió 24.0.1 (o superior). Es recomana utilitzar una distribució d'**OpenJDK**.
+- **Java Development Kit (JDK):** Version 24.0.1 (or higher). It is recommended to use an **OpenJDK** distribution.
 
-- Ejemplo: JDK 21 o superior.
+- Example: JDK 21 or higher.
 
-- Entorno de Desarrollo Integrado (IDE): IntelliJ IDEA.
+- Integrated Development Environment (IDE): IntelliJ IDEA.
 
+## 🛠️Installation
 
-## 🛠️Instal·lació
+- Clone the Repository:
 
-- Clonar el Repositorio:
+<!-- end list -->
 
+```
 git clone https://github.com/Rafadicandia/1.1-Herencia-y-Polimorfismo-Nivel1.git
+```
 
-- Configuración del IDE (Opcional pero útil):
+- IDE Configuration:
 
-Abrir el fichero como un proyecto de Java.
+Open the file as a Java project.
 
+## ▶️Execution
 
-## ▶️Execució
+- Execute from the IDE
+  - Open the main file (the one containing the `main` method).
 
-- Ejecutar desde el IDE
-    - Abrir el archivo principal (el que contiene el método main).
+  - Right-click and select "Run 'Main'".
 
-    - Hacer clic derecho y seleccionar "Run 'Main'".
+## 🌐Deployment
 
+Instructions for deploying the project in a production environment or on a server.
 
-## 🌐Desplegament
+## 🤝Contributions
 
-Instruccions per al desplegament del projecte en un entorn de producció o servidor.
-
-
-## 🤝Contribucions
-
-### Las contribuciones son bienvenidas. Por favor, reporta cualquier error abriendo un issue o sugiere mejoras mediante un Pull Request claro y conciso.
+### Contributions are welcome. Please report any errors by opening an issue or suggest improvements through a clear and concise Pull Request.
